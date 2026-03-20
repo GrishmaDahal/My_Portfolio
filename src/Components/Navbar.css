@@ -76,6 +76,9 @@
 
 @media (max-width: 768px) {
   .navbar { padding: 0 1.5rem; }
+  .nav-logo { width: 36px; height: 36px; }   /* slightly smaller logo */
+
+  .nav-name { font-size: 1.3rem; }    
   .nav-hamburger { display: flex; }
   .navbar-links {
     position: fixed; top: 0; right: 0; height: 100vh; width: 68vw; max-width: 270px;
