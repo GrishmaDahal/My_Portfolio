@@ -27,7 +27,7 @@ export default function Footer() {
         <a href="https://github.com/GrishmaDahal/" target="_blank" rel="noreferrer" className="footer-icon-link" aria-label="GitHub">
           <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/grishma-dahal-68245a342/" target="_blank" rel="noreferrer" className="footer-icon-link" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/grishma-dahal/" target="_blank" rel="noreferrer" className="footer-icon-link" aria-label="LinkedIn">
           <LinkedInIcon />
         </a>
         <a href="mailto:itsmegrishmaa@gmail.com" className="footer-icon-link" aria-label="Email">
