@@ -19,9 +19,14 @@ const EmailIcon = () => (
 )
 
 export default function Footer() {
+  const scrollToHome = (e) => {
+    e.preventDefault()
+    document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <footer className="footer">
-      <a href="#home" className="footer-brand">Grishma Dahal</a>
+      <a href="/" onClick={scrollToHome} className="footer-brand">Grishma Dahal</a>
       <p className="footer-copy">© 2026 · Built with React & passion 🌿</p>
       <div className="footer-icons">
         <a href="https://github.com/GrishmaDahal/" target="_blank" rel="noreferrer" className="footer-icon-link" aria-label="GitHub">
