@@ -158,6 +158,6 @@
 @media (max-width: 480px) {
   .skills { padding: 4rem 1rem; }
   .skill-pill { padding: 0.5rem 0.9rem 0.5rem 0.75rem; }
-  .skill-name { font-size: 0.82rem; }
+  .skill-name { font-size: 0.88rem; }
   .skill-icon { width: 18px; height: 18px; }
 }
