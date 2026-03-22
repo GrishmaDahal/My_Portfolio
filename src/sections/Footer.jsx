@@ -21,7 +21,7 @@ const EmailIcon = () => (
 export default function Footer() {
   return (
     <footer className="footer">
-      <span className="footer-brand">Grishma Dahal</span>
+      <a href="#home" className="footer-brand">Grishma Dahal</a>
       <p className="footer-copy">© 2026 · Built with React & passion 🌿</p>
       <div className="footer-icons">
         <a href="https://github.com/GrishmaDahal/" target="_blank" rel="noreferrer" className="footer-icon-link" aria-label="GitHub">

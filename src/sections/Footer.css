@@ -9,8 +9,8 @@
 
 .footer-brand {
   font-family: 'Playfair Display', serif;
-  font-style: normal; font-size: 1.1rem;
-  color: rgb(167, 90, 230); 
+  font-style: normal; font-size: 1.2rem; letter-spacing: 0.01em; text-transform: uppercase;
+  color: rgb(188, 159, 211); 
 }
 
 .footer-copy {
@@ -35,6 +35,15 @@
   transform: translateY(-2px);
 }
 .footer-icon-link svg { width: 18px; height: 18px; }
+
+a.footer-brand {
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+a.footer-brand:hover {
+  opacity: 0.75;
+}
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {

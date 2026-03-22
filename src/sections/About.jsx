@@ -17,15 +17,17 @@ export default function About() {
         {/* Right: text */}
         <div className="about-content reveal-right">
           <p className="about-bio">
-            I'm <strong>Grishma Dahal</strong>, an aspiring Computer Engineering student based in
-            Kathmandu, Nepal. I have a strong passion for programming, software development,
-            and system design. I love building things that are both functional and beautiful,
-            and I'm always looking for new challenges to grow as a developer.
+            I'm <strong>Grishma Dahal</strong>, an aspiring Computer Engineering student based in Kathmandu, 
+            Nepal, with a strong passion for programming, software development, and system design. 
+            I am driven by the pursuit of creating solutions that are not only functionally robust 
+            but also visually engaging and user-centric.
           </p>
           <p className="about-bio">
-            Currently pursuing a <strong>B.E. in Computer Engineering</strong>, I bridge theoretical
-            foundations with hands-on practice, exploring how front-end craft and back-end thinking
-            come together to create meaningful digital experiences.
+            Currently pursuing <strong>Bachelor’s degree in Computer Engineering</strong>, I actively bridge 
+            theoretical knowledge with practical application. I am particularly interested in how front-end 
+            design and back-end architecture integrate to deliver seamless and meaningful digital experiences. 
+            I continuously seek opportunities to challenge myself, expand my skill set, and grow as a developer 
+            in an ever-evolving technological landscape.
           </p>
           <div className="about-meta">
             <div className="about-meta-item">
